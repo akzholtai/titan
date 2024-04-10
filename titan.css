@@ -1,0 +1,69 @@
+#titan .content {
+    max-width: 360px;
+}
+#titan .block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+#titan .titan {
+    margin-top: 30px;
+}
+#titan .text {
+    margin: 10px 0;
+}
+#titan .link {
+    display: flex;
+    gap: 10px;
+}
+#titan .btn {
+    text-decoration: none;
+    color: #DFC28C;
+    font-size: 24px;
+}
+#titan .arrow {
+    margin: 7px;
+}
+#titan .vertical_text {
+    position: absolute;
+    transform: rotate(90deg);
+    color: #B49E76;
+    opacity: 15%;
+    font-size: 144px;
+    left: 660px;
+    top: 540px;
+    width: 970px;
+
+}
+
+@media only screen and (max-width: 1050px) {
+    #titan .container {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 938px) {
+    #titan .container {
+        width: 780px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #titan .container {
+        width: 550px;
+    }
+    #titan .content {
+        max-width: 450px;
+    }
+    #titan .block {
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (max-width: 530px) {
+    #titan .container {
+        width: 450px;
+    }
+    #titan .titan {
+        width: 400px;
+    }
+}

@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    background-image: radial-gradient(103.78% 43.39% at 50% 42.4%, #2C2923 0%, #000000 100%);
+    background-repeat: no-repeat;
+    --containerWidth: 1240px;
+    --leftMargin: calc(50vw - var(--containerWidth) / 2);
+}
+* {
+    font-family: 'Heebo', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, small {
+    margin: 0;
+}
+.container {
+    max-width: var(--containerWidth);
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.display {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 144px;
+    line-height: 48px;
+}
+.display-2 {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 144px;
+    line-height: 48px;
+    letter-spacing: 0.18;
+}
+h1, .header-1 {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 70px;
+}
+h2, .header-2 {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+h3, .subheader {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+}
+h4, .subheader-2 {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+}
+.caption {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+.caption-2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.18em;
+}
+.small {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+.color-white {
+    color: #FFFFFF;
+}
+.color-gray {
+    color: #A1A19F;
+}
+
+/* BUTTONS */
+.primary{
+    display: flex;
+    align-items: center;
+    font-family: Heebo, sans-serif;
+    padding: 9px 40px;
+    height: 44px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #9B7A3E;
+    border: 0;
+    gap: 27px;
+}
+.primary:not(:hover) .primary_icon{
+    opacity: 0.6;
+}
+.primary:hover{
+    background: #9B752F;
+}
+.primary:active{
+    background: #9B6F1F;
+}
+.secondary{
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding: 8px 27px 8px 27px;
+    background-color: transparent;
+    color: rgba(255, 255, 255);
+    font-family: Heebo, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255);
+    opacity: 0.7;
+    gap: 26px;
+}
+.secondary:hover{
+    border: 1px solid #FFF;
+    opacity: 0.8;
+}
+.secondary:active{
+    border: 1px solid #FFDDA0;
+    color: #FFDDA0;
+}
+.secondary:active .secondary_icon{
+    fill: #FFDDA0;
+}
+.secondary2{
+    height: 35px;
+    background-color: transparent;
+    padding: 7px 33px;
+    color: #FFF;
+    /*font-family: Roboto;*/
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #FFDDA0;
+}
+.secondary2:hover{
+    color: #FFDDA0;
+}
+.secondary2:active{
+    color: #FFF;
+    background: #FFDDA0;
+}
+.link1{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #DFC28C;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    gap: 7px;
+}
+.link1:hover { color: #FFDDA0;}
+.link1:active { color: #FFF;}
+.link2{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: transparent;
+}
+.link2:hover{color: #FFF;}
+.link2:active{color: #CBCBCB;}

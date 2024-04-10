@@ -1,0 +1,11 @@
+header {
+    position: absolute;
+    z-index: 1200;
+}
+header .links {
+    list-style-type: none;
+    display: flex;
+    gap: 64px;
+}
+header .links li {
+}

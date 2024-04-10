@@ -1,0 +1,39 @@
+.nvidia-right{
+    margin-left: 40%;
+    margin-bottom: 57px;
+}
+.nvidia-left{
+    padding: 32px 0;
+    margin-left: calc( -1 * var(--leftMargin));
+    width: 60%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.12) 13.82%, rgba(255, 255, 255, 0.04) 53.43%, rgba(255, 255, 255, 0.00) 95.95%);
+    margin-bottom: 239px;
+}
+.nvidia-left_side{
+    padding-left: 205px;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-column-gap: 93px;
+    grid-row-gap: 16px;
+}
+
+@media (max-width: 600px){
+    .nvidia-right {
+        text-align: left;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .nvidia-left {
+        width: 100%;
+        margin-left: 0;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 25.81%, rgba(255, 255, 255, 0.08) 93.24%);
+    }
+    .nvidia-left_side {
+        padding-left: 0;
+        grid-column-gap: 60px;
+        grid-row-gap: 26px;
+    }
+    .nvidia-text{
+        font-size: 24px;
+    }
+}
